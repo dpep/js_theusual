@@ -11,12 +11,13 @@
     "url": "git+https://github.com/dpep/js_theusual.git"
   },
   "keywords": [
-    "javascript"
+    "javascript",
+    "defaultdict",
   ],
   "author": "Daniel Pepper",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dpep/js_theusual/issues"
   },
-  "homepage": "https://github.com/dpep/js_theusual#readme"
+  "homepage": "https://github.com/dpep/js_theusual"
 }
