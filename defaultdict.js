@@ -21,7 +21,6 @@ module.exports = function defaultdict(defaultVal = undefined, initVal = {}) {
 
   let proxy = new Proxy({}, {
     get: function(target, name) {
-      log(name)
       if (typeof name === 'symbol') {
         return target[name]
       }
